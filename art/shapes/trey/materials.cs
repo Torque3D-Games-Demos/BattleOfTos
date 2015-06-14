@@ -72,7 +72,7 @@ singleton Material(tos_familiars_Material_001)
 
 singleton Material(tos_bldg02_Material_002)
 {
-   mapTo = "Material_002";
+   mapTo = "unmapped_mat";
    diffuseColor[0] = "0.64 0.0406231 0.0664598 1";
    specular[0] = "0.5 0.5 0.5 1";
    specularPower[0] = "50";
@@ -119,6 +119,36 @@ singleton Material(tos_bldg07_Material)
 {
    mapTo = "Material";
    diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+
+
+
+singleton Material(tos_gy_bldg01_texture_0001_tos_gy_bldg01_t2)
+{
+   mapTo = "tos_gy_bldg01_t2";
+   diffuseMap[0] = "tos_gy_bldg01_texture_0001_uv_wrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(tos_gy_wall_t1)
+{
+   mapTo = "tos_gy_wall_t1";
+   diffuseMap[0] = "tos_gy-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(tos_gy_bldg02_t1)
+{
+   mapTo = "tos_gy_bldg02_t1";
+   diffuseMap[0] = "tos_gy_bldg02-uvwrap";
    specular[0] = "0.5 0.5 0.5 1";
    specularPower[0] = "50";
    translucentBlendOp = "None";
