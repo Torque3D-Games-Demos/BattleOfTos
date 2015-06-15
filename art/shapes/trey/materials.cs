@@ -331,3 +331,30 @@ singleton Material(table_table_0_default)
    diffuseMap[0] = "table_diffuse";
    translucentBlendOp = "None";
 };
+
+singleton Material(street_lamp_mat)
+{
+   mapTo = "street_lamp_mat";
+   diffuseMap[0] = "street_lamp-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(flagpole_mat)
+{
+   mapTo = "flagpole_mat";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(fountain_mat)
+{
+   mapTo = "fountain_mat";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.117886 0.117886 0.117886 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
