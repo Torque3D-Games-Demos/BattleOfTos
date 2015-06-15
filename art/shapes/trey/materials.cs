@@ -153,3 +153,181 @@ singleton Material(tos_gy_bldg02_t1)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
+
+singleton Material(tombstone_tombston_tombston_0_default)
+{
+   mapTo = "tombston_tombston_0_default";
+   diffuseColor[0] = "0.8 0.8 0.8 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "128";
+   translucentBlendOp = "None";
+};
+
+singleton Material(tombstone_t1)
+{
+   mapTo = "tombstone_t1";
+   diffuseColor[0] = "0.8 0.8 0.8 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "128";
+   translucentBlendOp = "None";
+};
+
+singleton Material(tombstone_tombstone_t1)
+{
+   mapTo = "tombstone_tombstone_t1";
+   diffuseColor[0] = "0.8 0.8 0.8 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "128";
+   translucentBlendOp = "None";
+   diffuseMap[0] = "art/shapes/trey/tombston_tombston.png";
+};
+
+singleton Material(tombcross_tombcros_tombcros_0_default)
+{
+   mapTo = "tombcros_tombcros_0_default";
+   diffuseColor[3] = "1 1 1 1";
+   diffuseMap[0] = "tombcros_diffuse";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "128";
+   translucentBlendOp = "None";
+};
+
+singleton Material(barrel_barrel_0_default)
+{
+   mapTo = "barrel_barrel_0_default";
+   diffuseColor[3] = "White";
+   diffuseMap[0] = "barrel_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(apple_body_0_default)
+{
+   mapTo = "apple_body_0_default";
+   diffuseMap[0] = "body_diffuse";
+   specular[0] = "0.5 0.5 0.5 1";
+   translucentBlendOp = "None";
+};
+
+singleton Material(apple_stem_0_default)
+{
+   mapTo = "apple_stem_0_default";
+   diffuseMap[0] = "stem_diffuse";
+   specular[0] = "0.5 0.5 0.5 1";
+   translucentBlendOp = "None";
+};
+
+singleton Material(barstool_barstool_0_default)
+{
+   mapTo = "barstool_barstool_0_default";
+   diffuseMap[0] = "barstool_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(brazier_pan_0_default)
+{
+   mapTo = "brazier_pan_0_default";
+   diffuseMap[0] = "pan_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(brazier_socle_0_default)
+{
+   mapTo = "brazier_socle_0_default";
+   diffuseMap[0] = "socle_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(chalice_chalice_0_default)
+{
+   mapTo = "chalice_chalice_0_default";
+   diffuseMap[0] = "chalice_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(chalice_bottom_0_default)
+{
+   mapTo = "chalice_bottom_0_default";
+   diffuseMap[0] = "chalice_diffuse";
+   specular[0] = "0.16 0.16 0.16 1";
+   specularPower[0] = "9";
+   translucentBlendOp = "None";
+};
+
+singleton Material(chalice_rubies_0_default)
+{
+   mapTo = "chalice_rubies_0_default";
+   diffuseMap[0] = "rubies_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(dice_dice_0_default)
+{
+   mapTo = "dice_dice_0_default";
+   diffuseMap[0] = "dice_diffuse";
+   specular[0] = "0.495759 0.495759 0.495759 1";
+   specularPower[0] = "128";
+   translucentBlendOp = "None";
+};
+
+singleton Material(jug4_jug4_0_default)
+{
+   mapTo = "jug4_jug4_0_default";
+   diffuseMap[0] = "jug4_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(mushroom_mushroom_0_default)
+{
+   mapTo = "mushroom_mushroom_0_default";
+   diffuseMap[0] = "mushroom_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(news_globe_0_default)
+{
+   mapTo = "news_globe_0_default";
+   diffuseMap[0] = "globe_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(news_pillar_0_default)
+{
+   mapTo = "news_pillar_0_default";
+   diffuseMap[0] = "pillar_diffuse";
+   translucentBlendOp = "None";
+};
+
+singleton Material(razshrub_bark_0_default)
+{
+   mapTo = "razshrub_bark_0_default";
+   diffuseMap[0] = "bark_diffuse";
+   translucent = "1";
+};
+
+singleton Material(razshrub_leaf_0_default)
+{
+   mapTo = "razshrub_leaf_0_default";
+   diffuseMap[0] = "leaf_opacity";
+   translucent = "1";
+};
+
+singleton Material(raztree1_bark_0_default)
+{
+   mapTo = "raztree1_bark_0_default";
+   diffuseMap[0] = "bark_diffuse";
+   translucent = "1";
+};
+
+singleton Material(raztree1_leaf_0_default)
+{
+   mapTo = "raztree1_leaf_0_default";
+   diffuseMap[0] = "leaf_diffuse";
+   translucent = "1";
+};
+
+singleton Material(table_table_0_default)
+{
+   mapTo = "table_table_0_default";
+   diffuseMap[0] = "table_diffuse";
+   translucentBlendOp = "None";
+};

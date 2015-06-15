@@ -1,4 +1,4 @@
-//-------------------------- 6/14/2015 -- 18:41:10 -----
+//-------------------------- 6/14/2015 -- 19:54:19 -----
 Processor Init:
    AMD Phenom, ~3.32 Ghz
    FPU detected
@@ -91,9 +91,9 @@ Accepted Mode:
 --Refresh Rate : 60
 --FSAA Level : 4
 --------------
-GFXPCD3D9Device::reset - depthstencil 5fe28a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 60728a0 has 2 ref's
 --- Resetting D3D Device ---
-GFXPCD3D9Device::reset - depthstencil 5fc3dc0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 6053dc0 has 2 ref's
 --- Resetting D3D Device ---
 Binding server port to default IP
 UDP initialized on port 0
@@ -122,11 +122,11 @@ No physics plugin exists.
  % - Initializing Shape Editor
 Engine initialized...
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 5fc3e60 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 6053e60 has 2 ref's
 --- Resetting D3D Device ---
 Window focus status changed: focus: 1
 AntiAliasing has been disabled; it is not compatible with AdvancedLighting.
-Time spent in toggleEditor() : 0.157 s
+Time spent in toggleEditor() : 0.146 s
 Exporting server prefs...
 Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
 Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
@@ -140,13 +140,11 @@ TSShape::removeNode: Node 'collision-1' has 1 objects attached, these will be re
 *** LOADING MISSION: levels/tos.mis
 *** Stage 1 load
 *** Stage 2 load
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos_gy_bldg02.cached.dts
 Game -> activatePackages
 *** Mission loaded
 Connect request from: IP:0.0.0.0:0
-Connection established 4459
-CADD: 4460 local
+Connection established 4462
+CADD: 4463 local
 *** Sending mission load to client: levels/tos.mis
 Mapping string: ServerMessage to index: 0
 Mapping string: MsgConnectionError to index: 1
@@ -189,22 +187,162 @@ Mapping string: Visitor to index: 15
 *** Initial Control Object
 C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/edgeaa/edgeDetectP.hlsl(51,13): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 5fe28a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 60728a0 has 2 ref's
 --- Resetting D3D Device ---
-Time spent in toggleEditor() : 3.005 s
+Time spent in toggleEditor() : 3.018 s
 *** Control Object Changed
-Mapping string: base to index: 16
+Mapping string: DarkBlue to index: 16
 Mapping string: SetEditorCameraPlayer to index: 3
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 191263a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
 --- Resetting D3D Device ---
+Mapping string: Sprint to index: 17
+Mapping string: Stand to index: 18
+Object mesh "tombston" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/tombstone.cached.dts
+Mapping string: EditorOrbitCameraSelectChange to index: 4
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-    : file changed [art/shapes/trey/tos_gy_bldg02.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos_gy_bldg02.dae]
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos_gy_bldg02.cached.dts
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+    : file changed [art/shapes/trey/tombstone.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tombstone.dae]
+Object mesh "tombston" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/tombstone.cached.dts
+Activating DirectInput...
+Window focus status changed: focus: 1
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
+--- Resetting D3D Device ---
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
+--- Resetting D3D Device ---
+Time spent in toggleEditor() : 0.245 s
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Warning, overwriting material for: matEd_mappedMat
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "tombcros" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/tombcross.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "barrel" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/barrel.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "stem" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/apple.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "barstool" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/barstool.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "socle" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/brazier.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "rubies3" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/chalice.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "dice2" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/dice.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "jug4" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/jug4.cached.dts
+DirectInput deactivated.
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "mushroom2" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/mushroom.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "pillar" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/news.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "leaf" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/razshrub.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+    : file changed [art/shapes/trey/bark_diffuse.png]
+[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/bark_diffuse.png]
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "leaf" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/raztree1.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Object mesh "table" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/table.cached.dts
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
 Activating DirectInput...
 Window focus status changed: focus: 1
 Window focus status changed: focus: 0
@@ -282,6 +420,90 @@ Window focus status changed: focus: 0
 DirectInput deactivated.
 Activating DirectInput...
 Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(72,10): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(73,10): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(74,10): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(75,10): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(84,18): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(85,18): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(86,18): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(87,18): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(88,14): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(88,14): warning X3206: implicit truncation of vector type
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(88,11): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_CalcCoC_P.hlsl(39,11): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_CalcCoC_P.hlsl(40,12): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(54,8): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(55,8): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(56,8): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(57,8): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(75,12): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(103,8): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(106,10): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(117,12): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(117,10): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(131,14): warning X3205: conversion from larger type to smaller, possible loss of data
+C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/dof/DOF_Final_P.hlsl(132,11): warning X3205: conversion from larger type to smaller, possible loss of data
+Mapping string: ToggleCamera to index: 5
+*** Control Object Changed
+Mapping string: SetEditorCameraStandard to index: 6
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
+--- Resetting D3D Device ---
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
+--- Resetting D3D Device ---
+Time spent in toggleEditor() : 0.246 s
+*** Control Object Changed
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
+--- Resetting D3D Device ---
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
+--- Resetting D3D Device ---
+Time spent in toggleEditor() : 0.247 s
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
+--- Resetting D3D Device ---
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
+--- Resetting D3D Device ---
+Time spent in toggleEditor() : 0.279 s
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
@@ -293,11 +515,11 @@ DirectInput deactivated.
 Activating DirectInput...
 Window focus status changed: focus: 1
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 191263a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 199c48a0 has 2 ref's
 --- Resetting D3D Device ---
 *** ENDING MISSION
-4458 -> deactivatePackages
-CDROP: 4460 IP:0.0.0.0:0
+4461 -> deactivatePackages
+CDROP: 4463 IP:0.0.0.0:0
 Exporting server prefs...
 Exporting client prefs
 Exporting server prefs
