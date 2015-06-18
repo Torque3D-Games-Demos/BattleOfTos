@@ -61,15 +61,6 @@ singleton Material(logcabin_trey_logcabin_Roofing_Shingles_Asphalt_)
    translucentBlendOp = "None";
 };
 
-singleton Material(tos_familiars_Material_001)
-{
-   mapTo = "Material_001";
-   diffuseColor[0] = "0.0180837 0.00957294 0.64 1";
-   specular[0] = "0.5 0.5 0.5 1";
-   specularPower[0] = "50";
-   translucentBlendOp = "None";
-};
-
 singleton Material(tos_bldg02_Material_002)
 {
    mapTo = "unmapped_mat";
@@ -123,9 +114,6 @@ singleton Material(tos_bldg07_Material)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
-
-
-
 
 singleton Material(tos_gy_bldg01_texture_0001_tos_gy_bldg01_t2)
 {
@@ -355,6 +343,15 @@ singleton Material(fountain_mat)
    mapTo = "fountain_mat";
    diffuseColor[0] = "0.64 0.64 0.64 1";
    specular[0] = "0.117886 0.117886 0.117886 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(tos_familiars_familiars_material)
+{
+   mapTo = "familiars_material";
+   diffuseMap[0] = "tos-familiars-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
