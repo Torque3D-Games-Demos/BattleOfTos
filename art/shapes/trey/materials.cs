@@ -373,3 +373,10 @@ singleton Material(tos_bldg03_mat)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
+
+singleton Material(tos_bldg04_mat)
+{
+   mapTo = "tos_bldg04_mat";
+   diffuseMap[0] = "tos-bldg04-uvwrap";
+   translucentBlendOp = "None";
+};
