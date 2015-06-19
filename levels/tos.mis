@@ -324,7 +324,7 @@ new SimGroup(MissionGroup) {
          alphaFadeInverse = "0";
          renderNormals = "0";
          forceDetail = "-1";
-         position = "-35.8831 19.6495 -210.674";
+         position = "-44.0463 13.7689 -209.541";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
@@ -1497,7 +1497,7 @@ new SimGroup(MissionGroup) {
          texSize = "512";
          overDarkFactor = "2000 1000 500 100";
          shadowDistance = "400";
-         shadowSoftness = "0.75";
+         shadowSoftness = "2.75";
          numSplits = "4";
          logWeight = "0.91";
          fadeStartDistance = "0";
@@ -1534,6 +1534,21 @@ new SimGroup(MissionGroup) {
          canSave = "1";
          canSaveDynamicFields = "1";
       };
+   };
+   new TimeOfDay(TimeOfDay1) {
+      axisTilt = "23.44";
+      dayLength = "3600";
+      startTime = "0.25";
+      time = "0.151023";
+      play = "0";
+      azimuthOverride = "1";
+      dayScale = "1";
+      nightScale = "1.5";
+      position = "-54.1254 156.843 -413.92";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
    };
 };
 //--- OBJECT WRITE END ---
