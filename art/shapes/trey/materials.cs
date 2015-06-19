@@ -387,3 +387,10 @@ singleton Material(tos_bldg05_mat)
    diffuseMap[0] = "tos-bldg05-uvwrap";
    translucentBlendOp = "None";
 };
+
+singleton Material(tos_bldg07_mat)
+{
+   mapTo = "tos-bldg07_mat";
+   diffuseMap[0] = "tos-bldg07-uvwrap";
+   translucentBlendOp = "None";
+};

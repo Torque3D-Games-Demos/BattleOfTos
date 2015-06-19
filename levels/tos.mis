@@ -304,7 +304,7 @@ new SimGroup(MissionGroup) {
          alphaFadeInverse = "0";
          renderNormals = "0";
          forceDetail = "-1";
-         position = "-30.5888 35.0339 -209.527";
+         position = "-34.2515 26.9572 -209.527";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
