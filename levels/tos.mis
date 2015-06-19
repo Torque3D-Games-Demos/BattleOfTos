@@ -204,7 +204,7 @@ new SimGroup(MissionGroup) {
          alphaFadeInverse = "0";
          renderNormals = "0";
          forceDetail = "-1";
-         position = "-10.8362 14.5463 -210.863";
+         position = "-7.36069 19.7246 -209.475";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
@@ -224,7 +224,7 @@ new SimGroup(MissionGroup) {
          alphaFadeInverse = "0";
          renderNormals = "0";
          forceDetail = "-1";
-         position = "-7.43422 26.1643 -209.5";
+         position = "-11.6889 24.4309 -209.5";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
@@ -1469,7 +1469,7 @@ new SimGroup(MissionGroup) {
          skyBrightness = "10";
          sunSize = "1";
          colorizeAmount = "0";
-         colorize = "0 0 0 1";
+         colorize = "Black";
          rayleighScattering = "0.0035";
          sunScale = "1 1 1 1";
          ambientScale = "1 1 1 1";

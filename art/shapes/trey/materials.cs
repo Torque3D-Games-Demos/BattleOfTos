@@ -355,3 +355,21 @@ singleton Material(tos_familiars_familiars_material)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
+
+singleton Material(tos_bldg02_mat)
+{
+   mapTo = "tos-bldg02_mat";
+   diffuseMap[0] = "tos_bldg02-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(tos_bldg03_mat)
+{
+   mapTo = "tos-bldg03_mat";
+   diffuseMap[0] = "tos_bldg03-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};

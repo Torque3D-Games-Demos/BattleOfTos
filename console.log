@@ -1,4 +1,4 @@
-//-------------------------- 6/18/2015 -- 02:06:21 -----
+//-------------------------- 6/18/2015 -- 20:39:46 -----
 Processor Init:
    AMD Phenom, ~3.31 Ghz
    FPU detected
@@ -91,9 +91,9 @@ Accepted Mode:
 --Refresh Rate : 60
 --FSAA Level : 4
 --------------
-GFXPCD3D9Device::reset - depthstencil 5fe28a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5f028a0 has 2 ref's
 --- Resetting D3D Device ---
-GFXPCD3D9Device::reset - depthstencil 5fc3dc0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5ee3dc0 has 2 ref's
 --- Resetting D3D Device ---
 Binding server port to default IP
 UDP initialized on port 0
@@ -122,14 +122,14 @@ No physics plugin exists.
  % - Initializing Shape Editor
 Engine initialized...
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 5fc3e60 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5ee3e60 has 2 ref's
 --- Resetting D3D Device ---
 Window focus status changed: focus: 1
 AntiAliasing has been disabled; it is not compatible with AdvancedLighting.
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 5fe28a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5f028a0 has 2 ref's
 --- Resetting D3D Device ---
-Time spent in toggleEditor() : 0.189 s
+Time spent in toggleEditor() : 0.153 s
 Exporting server prefs...
 Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
 Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
@@ -143,14 +143,13 @@ TSShape::removeNode: Node 'collision-1' has 1 objects attached, these will be re
 *** LOADING MISSION: levels/tos.mis
 *** Stage 1 load
 *** Stage 2 load
-Object mesh "Familiars" has no matching detail ("detail2" has been added automatically)
-Warning: Collada <lines> element in Cube.001 is not supported.
-Writing cached COLLADA shape to art/shapes/trey/tos-familiars.cached.dts
+Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg03.cached.dts
 Game -> activatePackages
 *** Mission loaded
 Connect request from: IP:0.0.0.0:0
-Connection established 4538
-CADD: 4539 local
+Connection established 4540
+CADD: 4541 local
 *** Sending mission load to client: levels/tos.mis
 Mapping string: ServerMessage to index: 0
 Mapping string: MsgConnectionError to index: 1
@@ -175,7 +174,6 @@ Mapping string: MissionStartPhase2Ack to index: 1
 [MaterialList::mapMaterials] Unable to find material for texture: Material_001
 [MaterialList::mapMaterials] Unable to find material for texture: Material_002
 [MaterialList::mapMaterials] Unable to find material for texture: Material_002
-[MaterialList::mapMaterials] Unable to find material for texture: Material_002
 [MaterialList::mapMaterials] Unable to find material for texture: Material_001
 [MaterialList::mapMaterials] Unable to find material for texture: Material_002
 Ghost Always objects received.
@@ -196,177 +194,38 @@ Mapping string: Visitor to index: 15
 *** Initial Control Object
 C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/edgeaa/edgeDetectP.hlsl(51,13): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 5fe2800 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5f02800 has 2 ref's
 --- Resetting D3D Device ---
-Time spent in toggleEditor() : 4.766 s
+Time spent in toggleEditor() : 3.976 s
 *** Control Object Changed
 Mapping string: DarkBlue to index: 16
 Mapping string: SetEditorCameraPlayer to index: 3
+Mapping string: ToggleCamera to index: 4
+*** Control Object Changed
+Mapping string: SetEditorCameraStandard to index: 5
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
+    : file changed [art/shapes/trey/tos-bldg03.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg03.dae]
+Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg03.cached.dts
+    : file changed [art/shapes/trey/tos_bldg03-uvwrap.png]
+[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos_bldg03-uvwrap.png]
 Activating DirectInput...
 Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-familiars.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-familiars.dae]
-Object mesh "Familiars" has no matching detail ("detail2" has been added automatically)
-Warning: Collada <lines> element in Cube.001 is not supported.
-Writing cached COLLADA shape to art/shapes/trey/tos-familiars.cached.dts
-    : file changed [art/shapes/trey/tos-familiars-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-familiars-uvwrap.png]
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-familiars.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-familiars.dae]
-Object mesh "Familiars" has no matching detail ("detail2" has been added automatically)
-Warning: Collada <lines> element in Cube.001 is not supported.
-Writing cached COLLADA shape to art/shapes/trey/tos-familiars.cached.dts
-    : file changed [art/shapes/trey/tos-familiars-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-familiars-uvwrap.png]
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-familiars.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-familiars.dae]
-Error: Could not read art/shapes/trey/tos-familiars.dae into memory
-Resource<TSShape>::create - Error reading 'art/shapes/trey/tos-familiars.dae'
-Failed to create resource: [art/shapes/trey/tos-familiars.dae]
-TSStatic::_createShape() - Unable to load shape: art/shapes/trey/tos-familiars.dae
-Error: Could not read art/shapes/trey/tos-familiars.dae into memory
-Resource<TSShape>::create - Error reading 'art/shapes/trey/tos-familiars.dae'
-Failed to create resource: [art/shapes/trey/tos-familiars.dae]
-TSStatic::_createShape() - Unable to load shape: art/shapes/trey/tos-familiars.dae
-    : file changed [art/shapes/trey/tos-familiars-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-familiars-uvwrap.png]
-    : file changed [art/shapes/trey/tos-familiars.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-familiars.dae]
-Object mesh "Familiars" has no matching detail ("detail2" has been added automatically)
-Warning: Collada <lines> element in Cube.001 is not supported.
-Writing cached COLLADA shape to art/shapes/trey/tos-familiars.cached.dts
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-familiars.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-familiars.dae]
-Error: Could not read art/shapes/trey/tos-familiars.dae into memory
-Resource<TSShape>::create - Error reading 'art/shapes/trey/tos-familiars.dae'
-Failed to create resource: [art/shapes/trey/tos-familiars.dae]
-TSStatic::_createShape() - Unable to load shape: art/shapes/trey/tos-familiars.dae
-Error: Could not read art/shapes/trey/tos-familiars.dae into memory
-Resource<TSShape>::create - Error reading 'art/shapes/trey/tos-familiars.dae'
-Failed to create resource: [art/shapes/trey/tos-familiars.dae]
-TSStatic::_createShape() - Unable to load shape: art/shapes/trey/tos-familiars.dae
-    : file changed [art/shapes/trey/tos-familiars-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-familiars-uvwrap.png]
-Resource<GBitmap>::create - failed to open 'art/shapes/trey/tos-familiars-uvwrap.png'
-Failed to create resource: [art/shapes/trey/tos-familiars-uvwrap.png]
-    : file changed [art/shapes/trey/tos-familiars.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-familiars.dae]
-Object mesh "Familiars" has no matching detail ("detail2" has been added automatically)
-Warning: Collada <lines> element in Cube.001 is not supported.
-Writing cached COLLADA shape to art/shapes/trey/tos-familiars.cached.dts
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-familiars.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-familiars.dae]
-Object mesh "Familiars" has no matching detail ("detail2" has been added automatically)
-Warning: Collada <lines> element in Cube.001 is not supported.
-Writing cached COLLADA shape to art/shapes/trey/tos-familiars.cached.dts
-    : file changed [art/shapes/trey/tos-familiars-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-familiars-uvwrap.png]
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Mapping string: Crouch to index: 17
-Mapping string: Stand to index: 18
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
+*** Control Object Changed
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
 Activating DirectInput...
 Window focus status changed: focus: 1
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil d8ac780 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 1bc55860 has 2 ref's
 --- Resetting D3D Device ---
 *** ENDING MISSION
-4537 -> deactivatePackages
-CDROP: 4539 IP:0.0.0.0:0
+4539 -> deactivatePackages
+CDROP: 4541 IP:0.0.0.0:0
 Exporting server prefs...
 Exporting client prefs
 Exporting server prefs
