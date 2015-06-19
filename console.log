@@ -1,4 +1,4 @@
-//-------------------------- 6/18/2015 -- 21:38:04 -----
+//-------------------------- 6/19/2015 -- 00:15:38 -----
 Processor Init:
    AMD Phenom, ~3.31 Ghz
    FPU detected
@@ -91,9 +91,9 @@ Accepted Mode:
 --Refresh Rate : 60
 --FSAA Level : 4
 --------------
-GFXPCD3D9Device::reset - depthstencil 60128a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5fb28a0 has 2 ref's
 --- Resetting D3D Device ---
-GFXPCD3D9Device::reset - depthstencil 5ff3dc0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5f93dc0 has 2 ref's
 --- Resetting D3D Device ---
 Binding server port to default IP
 UDP initialized on port 0
@@ -122,11 +122,11 @@ No physics plugin exists.
  % - Initializing Shape Editor
 Engine initialized...
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 5ff3e60 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5f93e60 has 2 ref's
 --- Resetting D3D Device ---
 Window focus status changed: focus: 1
 AntiAliasing has been disabled; it is not compatible with AdvancedLighting.
-Time spent in toggleEditor() : 0.154 s
+Time spent in toggleEditor() : 0.153 s
 Exporting server prefs...
 Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
 Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
@@ -141,7 +141,7 @@ TSShape::removeNode: Node 'collision-1' has 1 objects attached, these will be re
 *** Stage 1 load
 *** Stage 2 load
 Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg04.cached.dts
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg05.cached.dts
 Game -> activatePackages
 *** Mission loaded
 Connect request from: IP:0.0.0.0:0
@@ -191,18 +191,31 @@ Mapping string: Visitor to index: 15
 *** Initial Control Object
 C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/edgeaa/edgeDetectP.hlsl(51,13): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 60128a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5fb28a0 has 2 ref's
 --- Resetting D3D Device ---
-Time spent in toggleEditor() : 3.974 s
+Time spent in toggleEditor() : 4.098 s
 *** Control Object Changed
-Mapping string: base to index: 16
+Mapping string: Teal to index: 16
 Mapping string: SetEditorCameraPlayer to index: 3
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 1c1ad9a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 1bd95860 has 2 ref's
 --- Resetting D3D Device ---
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+    : file changed [art/shapes/trey/tos-bldg05.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg05.dae]
+Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg05.cached.dts
+Activating DirectInput...
+Window focus status changed: focus: 1
 Mapping string: EditorOrbitCameraSelectChange to index: 4
-Mapping string: Crouch to index: 17
-Mapping string: Stand to index: 18
+Mapping string: cycleWeapon to index: 5
+Mapping string: lurker.png to index: 17
+Mapping string: MsgWeaponUsed to index: 18
+Mapping string: %1 selected. to index: 19
+Mapping string: Crouch to index: 20
+Mapping string: Stand to index: 21
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
@@ -213,71 +226,14 @@ Window focus status changed: focus: 0
 DirectInput deactivated.
 Activating DirectInput...
 Window focus status changed: focus: 1
+DirectInput deactivated.
 Window focus status changed: focus: 0
   Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg04.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg04.dae]
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg04.cached.dts
-    : file changed [art/shapes/trey/tos-bldg04-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg04-uvwrap.png]
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg04.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg04.dae]
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg04.cached.dts
-    : file changed [art/shapes/trey/tos-bldg04-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg04-uvwrap.png]
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg04.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg04.dae]
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg04.cached.dts
-    : file changed [art/shapes/trey/tos-bldg04-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg04-uvwrap.png]
+Win32Window::WindowProc - resetting device due to window size change.
 Activating DirectInput...
 Window focus status changed: focus: 1
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 1c1ad9a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 1bd95860 has 2 ref's
 --- Resetting D3D Device ---
 *** ENDING MISSION
 4540 -> deactivatePackages
