@@ -402,3 +402,13 @@ singleton Material(tos_bldg08_mat)
    translucentBlendOp = "None";
    effectColor[1] = "InvisibleBlack";
 };
+
+singleton Material(tos_bldg09_mat)
+{
+   mapTo = "tos-bldg09_mat";
+   diffuseMap[0] = "tos-bldg09-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+   effectColor[0] = "0 0 0 0";
+};
