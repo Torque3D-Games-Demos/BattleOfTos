@@ -1,4 +1,4 @@
-//-------------------------- 6/19/2015 -- 16:48:38 -----
+//-------------------------- 6/19/2015 -- 20:10:14 -----
 Processor Init:
    AMD Phenom, ~3.31 Ghz
    FPU detected
@@ -91,9 +91,9 @@ Accepted Mode:
 --Refresh Rate : 60
 --FSAA Level : 4
 --------------
-GFXPCD3D9Device::reset - depthstencil 5fe28a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5fd28a0 has 2 ref's
 --- Resetting D3D Device ---
-GFXPCD3D9Device::reset - depthstencil 5fc3dc0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5fb3dc0 has 2 ref's
 --- Resetting D3D Device ---
 Binding server port to default IP
 UDP initialized on port 0
@@ -122,11 +122,11 @@ No physics plugin exists.
  % - Initializing Shape Editor
 Engine initialized...
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 5fc3e60 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5fb3e60 has 2 ref's
 --- Resetting D3D Device ---
 Window focus status changed: focus: 1
 AntiAliasing has been disabled; it is not compatible with AdvancedLighting.
-Time spent in toggleEditor() : 0.155 s
+Time spent in toggleEditor() : 0.156 s
 Exporting server prefs...
 Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
 Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
@@ -143,8 +143,8 @@ TSShape::removeNode: Node 'collision-1' has 1 objects attached, these will be re
 Game -> activatePackages
 *** Mission loaded
 Connect request from: IP:0.0.0.0:0
-Connection established 4545
-CADD: 4546 local
+Connection established 4546
+CADD: 4547 local
 *** Sending mission load to client: levels/tos.mis
 Mapping string: ServerMessage to index: 0
 Mapping string: MsgConnectionError to index: 1
@@ -188,22 +188,34 @@ Mapping string: Visitor to index: 15
 *** Initial Control Object
 C:/GIT_WD/treymd-github/BattleOfTos/shaders/common/postFx/edgeaa/edgeDetectP.hlsl(51,13): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 5fe28a0 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 5fd28a0 has 2 ref's
 --- Resetting D3D Device ---
-Time spent in toggleEditor() : 3.995 s
+Time spent in toggleEditor() : 4.071 s
 *** Control Object Changed
-Mapping string: Teal to index: 16
+Mapping string: Orange to index: 16
 Mapping string: SetEditorCameraPlayer to index: 3
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 1cc69140 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 1c915c00 has 2 ref's
 --- Resetting D3D Device ---
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 1c915c00 has 2 ref's
+--- Resetting D3D Device ---
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 1c915c00 has 2 ref's
+--- Resetting D3D Device ---
+Time spent in toggleEditor() : 0.262 s
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+    : file changed [art/shapes/trey/tos-bldg10.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg10.dae]
 Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg10.cached.dts
 Activating DirectInput...
 Window focus status changed: focus: 1
 Mapping string: EditorOrbitCameraSelectChange to index: 4
@@ -213,38 +225,17 @@ Mapping string: SetEditorCameraStandard to index: 6
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
+    : file changed [art/shapes/trey/tos-bldg10.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg10.dae]
 Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg10.cached.dts
+    : file changed [art/shapes/trey/tos-bldg10-uvwrap.png]
+[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg10-uvwrap.png]
 Activating DirectInput...
 Window focus status changed: focus: 1
 *** Control Object Changed
-Mapping string: cycleWeapon to index: 7
-Mapping string: lurker.png to index: 17
-Mapping string: MsgWeaponUsed to index: 18
-Mapping string: %1 selected. to index: 19
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Mapping string: SetEditorCameraPlayerThird to index: 8
+Mapping string: Crouch to index: 17
+Mapping string: Stand to index: 18
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
@@ -253,19 +244,17 @@ Window focus status changed: focus: 1
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+    : file changed [art/shapes/trey/tos-bldg10.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg10.dae]
 Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-    : file changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-Activating DirectInput...
-Window focus status changed: focus: 1
-*** Control Object Changed
-*** Control Object Changed
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg10.cached.dts
+    : file changed [art/shapes/trey/tos-bldg10-uvwrap.png]
+[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg10-uvwrap.png]
 Activating DirectInput...
 Window focus status changed: focus: 1
 Window focus status changed: focus: 0
@@ -281,34 +270,84 @@ Window focus status changed: focus: 1
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+    : file changed [art/shapes/trey/tos-bldg10.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg10.dae]
 Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-    : file changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg09-uvwrap.png]
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg10.cached.dts
+    : file changed [art/shapes/trey/tos-bldg10-uvwrap.png]
+[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg10-uvwrap.png]
 Activating DirectInput...
 Window focus status changed: focus: 1
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+DirectInput deactivated.
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+    : file changed [art/shapes/trey/tos-bldg10.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg10.dae]
 Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-    : file changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg09-uvwrap.png]
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg10.cached.dts
+    : file changed [art/shapes/trey/tos-bldg10-uvwrap.png]
+[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg10-uvwrap.png]
 Activating DirectInput...
 Window focus status changed: focus: 1
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+    : file changed [art/shapes/trey/tos-bldg10.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg10.dae]
 Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-    : file changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg09-uvwrap.png]
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg10.cached.dts
+    : file changed [art/shapes/trey/tos-bldg10-uvwrap.png]
+[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg10-uvwrap.png]
 Activating DirectInput...
 Window focus status changed: focus: 1
 Window focus status changed: focus: 0
@@ -319,39 +358,12 @@ Window focus status changed: focus: 1
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
+    : file changed [art/shapes/trey/tos-bldg10.dae]
+[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg10.dae]
 Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-    : file changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-    : file changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-    : file changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg09-uvwrap.png]
+Writing cached COLLADA shape to art/shapes/trey/tos-bldg10.cached.dts
+    : file changed [art/shapes/trey/tos-bldg10-uvwrap.png]
+[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg10-uvwrap.png]
 Activating DirectInput...
 Window focus status changed: focus: 1
 Window focus status changed: focus: 0
@@ -362,34 +374,14 @@ Window focus status changed: focus: 1
 Window focus status changed: focus: 0
   Using background sleep time: 200
 DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-Activating DirectInput...
-Window focus status changed: focus: 1
-Window focus status changed: focus: 0
-  Using background sleep time: 200
-DirectInput deactivated.
-    : file changed [art/shapes/trey/tos-bldg09.dae]
-[ResourceManager::notifiedFileChanged] : File changed [art/shapes/trey/tos-bldg09.dae]
-Object mesh "Plane" has no matching detail ("detail2" has been added automatically)
-Writing cached COLLADA shape to art/shapes/trey/tos-bldg09.cached.dts
-    : file changed [art/shapes/trey/tos-bldg09-uvwrap.png]
-[GFXTextureManager::_onFileChanged] : File changed [art/shapes/trey/tos-bldg09-uvwrap.png]
 Activating DirectInput...
 Window focus status changed: focus: 1
 Win32Window::WindowProc - resetting device due to window size change.
-GFXPCD3D9Device::reset - depthstencil 1cc69140 has 2 ref's
+GFXPCD3D9Device::reset - depthstencil 1c915c00 has 2 ref's
 --- Resetting D3D Device ---
 *** ENDING MISSION
-4544 -> deactivatePackages
-CDROP: 4546 IP:0.0.0.0:0
+4545 -> deactivatePackages
+CDROP: 4547 IP:0.0.0.0:0
 Exporting server prefs...
 Exporting client prefs
 Exporting server prefs

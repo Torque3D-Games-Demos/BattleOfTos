@@ -412,3 +412,11 @@ singleton Material(tos_bldg09_mat)
    translucentBlendOp = "None";
    effectColor[0] = "0 0 0 0";
 };
+
+singleton Material(tos_bldg10_mat)
+{
+   mapTo = "tos-bldg10_mat";
+   diffuseColor[2] = "White";
+   diffuseMap[0] = "tos-bldg10-uvwrap";
+   translucentBlendOp = "None";
+};
