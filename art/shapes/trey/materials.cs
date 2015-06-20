@@ -420,3 +420,12 @@ singleton Material(tos_bldg10_mat)
    diffuseMap[0] = "tos-bldg10-uvwrap";
    translucentBlendOp = "None";
 };
+
+singleton Material(blackstone_courtyard_wall_Material_001)
+{
+   mapTo = "Material_001";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};

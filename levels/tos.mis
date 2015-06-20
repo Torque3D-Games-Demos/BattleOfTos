@@ -344,7 +344,7 @@ new SimGroup(MissionGroup) {
          alphaFadeInverse = "0";
          renderNormals = "0";
          forceDetail = "-1";
-         position = "-41.5472 -9.72149 -209.522";
+         position = "-41.5472 -10.4407 -209.522";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
@@ -693,7 +693,7 @@ new SimGroup(MissionGroup) {
             alphaFadeInverse = "0";
             renderNormals = "0";
             forceDetail = "-1";
-            position = "-28.2586 8.62163 -209.41";
+            position = "-28.2586 6.44075 -209.41";
             rotation = "1 0 0 0";
             scale = "1 1 0.623172";
             canSave = "1";
@@ -773,7 +773,7 @@ new SimGroup(MissionGroup) {
             alphaFadeInverse = "0";
             renderNormals = "0";
             forceDetail = "-1";
-            position = "-25.8872 8.03397 -209.474";
+            position = "-25.8872 5.85309 -209.474";
             rotation = "1 0 0 0";
             scale = "0.504336 0.350586 0.22421";
             canSave = "1";
@@ -793,7 +793,7 @@ new SimGroup(MissionGroup) {
             alphaFadeInverse = "0";
             renderNormals = "0";
             forceDetail = "-1";
-            position = "-25.8872 11.2906 -209.474";
+            position = "-25.8872 9.10972 -209.474";
             rotation = "1 0 0 0";
             scale = "0.504336 0.350586 0.22421";
             canSave = "1";
@@ -1467,7 +1467,7 @@ new SimGroup(MissionGroup) {
 
       new ScatterSky(ScatterSky1) {
          skyBrightness = "10";
-         sunSize = "1";
+         sunSize = "1.5";
          colorizeAmount = "0";
          colorize = "0 0 0 1";
          rayleighScattering = "0.0035";
@@ -1481,14 +1481,14 @@ new SimGroup(MissionGroup) {
          moonAzimuth = "0";
          moonElevation = "45";
          castShadows = "1";
-         brightness = "1";
+         brightness = "2";
          flareType = "NullLightFlare";
          flareScale = "0";
          nightColor = "0.0196078 0.0117647 0.109804 1";
          nightFogColor = "0.0196078 0.0117647 0.109804 1";
          moonEnabled = "1";
          moonMat = "Moon_Glow_Mat";
-         moonScale = "0.2";
+         moonScale = "0.1";
          moonLightColor = "0.286275 0.286275 0.286275 1";
          useNightCubemap = "1";
          nightCubemap = "NightCubemap";
@@ -1537,13 +1537,13 @@ new SimGroup(MissionGroup) {
    };
    new TimeOfDay(TimeOfDay1) {
       axisTilt = "23.44";
-      dayLength = "3600";
+      dayLength = "1800";
       startTime = "0.25";
-      time = "0.25";
-      play = "0";
+      time = "0.714568";
+      play = "1";
       azimuthOverride = "1";
       dayScale = "1";
-      nightScale = "1.5";
+      nightScale = "1";
       position = "-54.1254 156.843 -413.92";
       rotation = "1 0 0 0";
       scale = "1 1 1";
