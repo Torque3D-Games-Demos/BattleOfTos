@@ -284,7 +284,7 @@ new SimGroup(MissionGroup) {
          alphaFadeInverse = "0";
          renderNormals = "0";
          forceDetail = "-1";
-         position = "-45.9551 -28.5908 -209.531";
+         position = "-45.9551 -28.5908 -209.475";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
@@ -1539,7 +1539,7 @@ new SimGroup(MissionGroup) {
       axisTilt = "23.44";
       dayLength = "1800";
       startTime = "0.25";
-      time = "0.714568";
+      time = "0.158439";
       play = "1";
       azimuthOverride = "1";
       dayScale = "1";

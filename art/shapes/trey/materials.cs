@@ -429,3 +429,10 @@ singleton Material(blackstone_courtyard_wall_Material_001)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
+
+singleton Material(tos_citywall_mat)
+{
+   mapTo = "tos-citywall_mat";
+   diffuseMap[0] = "tos-citywall-uvwrap";
+   translucentBlendOp = "None";
+};
