@@ -1539,7 +1539,7 @@ new SimGroup(MissionGroup) {
       axisTilt = "23.44";
       dayLength = "1800";
       startTime = "0.25";
-      time = "0.158439";
+      time = "0.375709";
       play = "1";
       azimuthOverride = "1";
       dayScale = "1";

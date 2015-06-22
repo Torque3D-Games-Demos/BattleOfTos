@@ -436,3 +436,11 @@ singleton Material(tos_citywall_mat)
    diffuseMap[0] = "tos-citywall-uvwrap";
    translucentBlendOp = "None";
 };
+
+singleton Material(tos_citywall_tos_cityfloor_mat)
+{
+   mapTo = "tos-cityfloor_mat";
+   diffuseMap[0] = "art/shapes/trey/tos-cityfloor-uvwrap";
+   translucentBlendOp = "None";
+   accuSpecular[0] = "0";
+};
