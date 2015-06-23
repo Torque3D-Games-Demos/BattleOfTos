@@ -440,7 +440,27 @@ singleton Material(tos_citywall_mat)
 singleton Material(tos_citywall_tos_cityfloor_mat)
 {
    mapTo = "tos-cityfloor_mat";
-   diffuseMap[0] = "art/shapes/trey/tos-cityfloor-uvwrap";
+   diffuseMap[0] = "art/shapes/trey/tos-cityfloor-uvwrap.png";
+   translucentBlendOp = "LerpAlpha";
+   accuSpecular[0] = "16";
+   specular[0] = "1 1 1 1";
+   showFootprints = "0";
+};
+
+singleton Material(tos_citywall_tos_landscape_mat)
+{
+   mapTo = "tos-landscape_mat";
+   diffuseColor[0] = "0.00172496 0.125947 0.00291464 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
    translucentBlendOp = "None";
-   accuSpecular[0] = "0";
+};
+
+singleton Material(tos_citywall_tos_sidewalk_mat)
+{
+   mapTo = "tos-sidewalk_mat";
+   diffuseMap[0] = "tos-sidewalk-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
 };
