@@ -464,3 +464,48 @@ singleton Material(tos_citywall_tos_sidewalk_mat)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
+
+singleton Material(h6_path_mat)
+{
+   mapTo = "h6-path_mat";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(h6_wall_mat)
+{
+   mapTo = "h6-wall_mat";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(i6_wall_mat)
+{
+   mapTo = "i6-wall_mat";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(i6_obstructions_mat)
+{
+   mapTo = "i6-obstructions_mat";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(i6_path_mat)
+{
+   mapTo = "i6-path_mat";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};

@@ -23,11 +23,9 @@
 //--- cube.dae MATERIALS BEGIN ---
 singleton Material(cube_GridMaterial)
 {
-	mapTo = "GridMaterial";
+	mapTo = "unmapped_mat";
 
-	diffuseMap[0] = "grid";
-	normalMap[0] = "";
-	specularMap[0] = "";
+	diffuseMap[0] = "art/shapes/cube/grid";
 
 	diffuseColor[0] = "1 1 1 1";
 	specular[0] = "0.9 0.9 0.9 1";
@@ -42,3 +40,19 @@ singleton Material(cube_GridMaterial)
 
 //--- cube.dae MATERIALS END ---
 
+
+singleton Material(Corona_Mat)
+{
+   mapTo = "unmapped_mat";
+   diffuseMap[0] = "art/lights/corona.png";
+   emissive[0] = "1";
+   translucent = "1";
+   materialTag0 = "FX";
+};
+
+singleton Material(Grid512_GreyBase_Mat)
+{
+   mapTo = "GridMaterial";
+   diffuseMap[0] = "core/art/grids/512_grey_base";
+   materialTag0 = "TestMaterial";
+};

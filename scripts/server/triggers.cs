@@ -28,6 +28,7 @@ function DefaultTrigger::onEnterTrigger(%this,%trigger,%obj)
 {
    // This method is called whenever an object enters the %trigger
    // area, the object is passed as %obj.
+   //echo( %obj.getClassName() @ "Entered trigger DefaultTrigger.");
 }
 
 function DefaultTrigger::onLeaveTrigger(%this,%trigger,%obj)
@@ -45,4 +46,23 @@ function DefaultTrigger::onTickTrigger(%this,%trigger)
    // methods:
    //    %trigger.getNumObjects();
    //    %trigger.getObject(n);
+}
+
+datablock TriggerData (ZoneTrigger1)
+{
+   tickPeriodMS = 100;
+};
+
+function ZoneTrigger1::onEnterTrigger(%this,%trigger,%obj)
+{
+   echo( %obj.getClassName() @ " entered trigger zone trigger 1." @ %trigger.name );
+   
+   //%levelName = "outside_tos.mis";
+   %levelName = %trigger.ZoneTo;
+   
+   %spawnPoint = %trigger.spawnPoint;  
+  
+   echo("\c4Transferring client: "@ %client @" to "@ %levelName @" at "@ %spawnPoint);  
+   
+   schedule(0, 0, loadMission, "levels/"@ %levelName, false, %spawnPoint);
 }

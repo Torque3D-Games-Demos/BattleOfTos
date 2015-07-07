@@ -62,12 +62,6 @@ singleton Material( Grid512_Grey_Mat )
    materialTag0 = "TestMaterial";
 };
 
-singleton Material( Grid512_GreyBase_Mat )
-{
-   mapTo = "Grid512_GreyBase_Mat";
-   diffuseMap[0] = "512_grey_base";
-   materialTag0 = "TestMaterial";
-};
 
 singleton Material( Grid512_Orange_Mat )
 {

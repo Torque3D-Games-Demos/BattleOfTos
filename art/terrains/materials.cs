@@ -40,7 +40,7 @@ singleton Material(TerrainFX_grass1)
 new TerrainMaterial()
 {
    internalName = "grass1";
-   diffuseMap = "art/terrains/Example/grass1";
+   diffuseMap = "art/terrains/grass0000";
    detailMap = "art/terrains/Example/grass1_d";
    detailSize = "10";
    isManaged = "1";
@@ -143,14 +143,16 @@ singleton Material(TerrainFX_rocktest)
 new TerrainMaterial()
 {
    internalName = "rocktest";
-   diffuseMap = "art/terrains/Example/rocktest";
-   detailMap = "art/terrains/Example/rocktest_d";
-   detailSize = "10";
-   detailDistance = "100";
+   diffuseMap = "art/terrains/rock-desert-sw-0000";
+   detailMap = "art/terrains/rock-desert-sw-0000";
+   detailSize = "4";
+   detailDistance = "25";
    isManaged = "1";
    detailBrightness = "1";
    Enabled = "1";
-   diffuseSize = "400";
+   diffuseSize = "20";
+   useSideProjection = "0";
+   detailStrength = "2";
 };
 
 // ----------------------------------------------------------------------------
@@ -211,4 +213,46 @@ new TerrainMaterial()
    detailBrightness = "1";
    Enabled = "1";
    diffuseSize = "200";
+};
+
+new TerrainMaterial()
+{
+   internalName = "TOS-STONEPATH";
+   diffuseSize = "500";
+   useSideProjection = "0";
+   diffuseMap = "art/terrains/Meridian/grd09566-0";
+   detailSize = "3";
+   detailStrength = "0.5";
+   detailDistance = "50";
+   detailMap = "art/terrains/Meridian/grd09566-0_d";
+};
+
+new TerrainMaterial()
+{
+   diffuseMap = "art/terrains/ground0000";
+   internalName = "groundCover0000";
+   diffuseSize = "5";
+   detailMap = "art/terrains/ground0000";
+   detailSize = "1";
+   macroSize = "100";
+   detailDistance = "20";
+   detailStrength = "1";
+};
+
+new TerrainMaterial()
+{
+   diffuseMap = "art/terrains/rock-desert-sw-0000";
+   detailMap = "art/terrains/Example/rocks1_d";
+   internalName = "RockPath1";
+};
+
+new TerrainMaterial()
+{
+   diffuseMap = "art/terrains/grass0000";
+   internalName = "grass0";
+   detailSize = "5";
+   detailStrength = "0.35";
+   diffuseSize = "500";
+   useSideProjection = "0";
+   detailMap = "art/terrains/grass0000";
 };
