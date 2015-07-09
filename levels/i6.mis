@@ -168,13 +168,13 @@ new SimGroup(MissionGroup) {
    };
    new TimeOfDay(theTimeOfDay) {
       axisTilt = "23.44";
-      dayLength = "120";
+      dayLength = "480";
       startTime = "0.5";
-      time = "0.261091";
+      time = "0.830301";
       play = "1";
       azimuthOverride = "1";
       dayScale = "1";
-      nightScale = "1.5";
+      nightScale = "3";
       position = "10.0988 -0.793832 4.90474";
       rotation = "1 0 0 0";
       scale = "1 1 1";

@@ -509,3 +509,224 @@ singleton Material(i6_path_mat)
    specularPower[0] = "50";
    translucentBlendOp = "None";
 };
+
+singleton Material(smrshield_Steel)
+{
+   mapTo = "smrshield-Steel";
+   diffuseColor[0] = "0.64 0.64 0.64 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(smrshield_Brass)
+{
+   mapTo = "smrshield-Brass";
+   diffuseColor[0] = "0.389517 0.223658 0.0658801 1";
+   diffuseColor[3] = "White";
+   translucentBlendOp = "None";
+};
+
+singleton Material(neclever_material0)
+{
+   mapTo = "neclever-material0";
+   diffuseColor[1] = "1 1 1 1";
+   diffuseMap[0] = "neclever-uvwrap";
+   translucentBlendOp = "None";
+};
+
+singleton Material(smrshield_material0)
+{
+   mapTo = "smrshield-material0";
+   diffuseColor[1] = "White";
+   diffuseMap[0] = "smrshield-uvwrap";
+   translucentBlendOp = "None";
+};
+
+singleton Material(grshield_Gold)
+{
+   mapTo = "grshield-Gold";
+   diffuseColor[0] = "0.64 0.425498 0.0374505 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(grshield_Gold2)
+{
+   mapTo = "grshield-Gold2";
+   diffuseColor[0] = "0.350835 0.328559 0.0530597 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(grshield_Wood)
+{
+   mapTo = "grshield-Wood";
+   diffuseColor[0] = "0.106291 0.063122 0.0206571 1";
+   translucentBlendOp = "None";
+};
+
+singleton Material(grshield_material0)
+{
+   mapTo = "grshield-material0";
+   diffuseMap[0] = "grshield-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(kshield_material0)
+{
+   mapTo = "kshield-material0";
+   diffuseMap[0] = "kshield-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(axe_Wood)
+{
+   mapTo = "Wood";
+   diffuseColor[0] = "0.05439 0.0171099 0.00259 1";
+   translucentBlendOp = "None";
+};
+
+singleton Material(axe_Steel)
+{
+   mapTo = "Steel";
+   diffuseColor[0] = "0.155407 0.155407 0.155407 1";
+   specular[0] = "0.176938 0.176938 0.176938 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(axe_material0)
+{
+   mapTo = "axe-material0";
+   diffuseMap[0] = "axe-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(lsword_material0)
+{
+   mapTo = "lsword-material0";
+   diffuseMap[0] = "lsword-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(emerald_material0)
+{
+   mapTo = "emerald-material0";
+   diffuseMap[0] = "emerald-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(diamond_Material_001)
+{
+   mapTo = "diamond-Material_001";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(sapphire_Material_001)
+{
+   mapTo = "sapphire-Material_001";
+   diffuseColor[0] = "0.0140726 0.228122 1 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(ruby_Material_001)
+{
+   mapTo = "ruby-Material_001";
+   diffuseColor[0] = "0.8 0.00941958 0.00778373 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(polseraphym_Material_001)
+{
+   mapTo = "polseraphym-Material_001";
+   diffuseColor[0] = "0.0732481 0.0124308 0.8 1";
+   specularPower[0] = "14";
+   translucentBlendOp = "None";
+};
+
+singleton Material(uncseraphym_Material_001)
+{
+   mapTo = "uncseraphym-Material_001";
+   diffuseColor[0] = "0.0251948 0.0160293 0.8 1";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(mace_Black_Iron)
+{
+   mapTo = "Black_Iron";
+   diffuseColor[0] = "0.00887013 0.00887013 0.00887013 1";
+   specular[0] = "0.235537 0.235537 0.235537 1";
+   specularPower[0] = "128";
+   translucentBlendOp = "None";
+};
+
+singleton Material(scimitar_Gold)
+{
+   mapTo = "Gold";
+   diffuseColor[0] = "0.314491 0.211892 0.00221409 1";
+   specular[0] = "0.834711 0.834711 0.834711 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(scimitar_Leather)
+{
+   mapTo = "Leather";
+   diffuseColor[0] = "0.14555 0.0319066 0.00753884 1";
+   translucentBlendOp = "None";
+};
+
+singleton Material(ssword_material0)
+{
+   mapTo = "ssword-material0";
+   diffuseMap[0] = "ssword-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(scimitar_material0)
+{
+   mapTo = "scimitar-material0";
+   diffuseMap[0] = "scimitar-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(mace_material0)
+{
+   mapTo = "mace-material0";
+   diffuseMap[0] = "mace-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};
+
+singleton Material(hammer_material0)
+{
+   mapTo = "hammer-material0";
+   diffuseMap[0] = "hammer-uvwrap";
+   specular[0] = "0.5 0.5 0.5 1";
+   specularPower[0] = "50";
+   translucentBlendOp = "None";
+};

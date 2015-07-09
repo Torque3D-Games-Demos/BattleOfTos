@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.72.0 commit date:2014-10-21, commit time:11:38, hash:9e963ae</authoring_tool>
+    </contributor>
+    <created>2015-07-08T04:10:40</created>
+    <modified>2015-07-08T04:10:40</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <YF_dofdist>0</YF_dofdist>
+          <shiftx>0</shiftx>
+          <shifty>0</shifty>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Lamp-light" name="Lamp">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>0.000999987</adapt_thresh>
+          <area_shape>1</area_shape>
+          <area_size>0.1</area_size>
+          <area_sizey>0.1</area_sizey>
+          <area_sizez>1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>2880</bufsize>
+          <buftype>2</buftype>
+          <clipend>30.002</clipend>
+          <clipsta>1.000799</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">29.99998</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>8192</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <sky_colorspace>0</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>75</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>0</type>
+        </technique>
+      </extra>
+    </light>
+    <light id="Lamp_001-light" name="Lamp.001">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>0.000999987</adapt_thresh>
+          <area_shape>1</area_shape>
+          <area_size>0.1</area_size>
+          <area_sizey>0.1</area_sizey>
+          <area_sizez>1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>2880</bufsize>
+          <buftype>2</buftype>
+          <clipend>30.002</clipend>
+          <clipsta>1.000799</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">29.99998</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>8192</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <sky_colorspace>0</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>75</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>0</type>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="emerald-uvwrap_png" name="emerald-uvwrap_png">
+      <init_from>emerald-uvwrap.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="emerald-green-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.09860864 0.64 0.0651501 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="emerald-material0-effect">
+      <profile_COMMON>
+        <newparam sid="emerald-uvwrap_png-surface">
+          <surface type="2D">
+            <init_from>emerald-uvwrap_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="emerald-uvwrap_png-sampler">
+          <sampler2D>
+            <source>emerald-uvwrap_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="emerald-uvwrap_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="emerald-green-material" name="emerald-green">
+      <instance_effect url="#emerald-green-effect"/>
+    </material>
+    <material id="emerald-material0-material" name="emerald-material0">
+      <instance_effect url="#emerald-material0-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Emerald-mesh" name="Emerald">
+      <mesh>
+        <source id="Emerald-mesh-positions">
+          <float_array id="Emerald-mesh-positions-array" count="78">-0.04332315 0 0.1782799 -0.0700984 0 0.1507288 -0.0700984 0 0.01381319 -0.04332315 0 -0.01373785 -0.02166157 0.03751897 0.1782799 -0.03504914 0.06070703 0.1507288 -0.03504914 0.06070703 0.01381319 -0.02166157 0.03751897 -0.01373785 0.02166163 0.03751897 0.1782799 0.0350492 0.06070703 0.1507288 0.0350492 0.06070697 0.01381319 0.02166163 0.03751897 -0.01373785 0.04332321 0 0.1782799 0.0700984 0 0.1507288 0.0700984 0 0.01381319 0.04332321 0 -0.01373785 0 0 -0.01439791 0.02166157 -0.03751897 0.1782799 0.0350492 -0.06070703 0.1507288 0.0350492 -0.06070703 0.01381319 0.02166157 -0.03751897 -0.01373785 0 0 0.1789399 -0.02166157 -0.03751897 0.1782799 -0.0350492 -0.06070697 0.1507288 -0.0350492 -0.06070697 0.01381319 -0.02166157 -0.03751897 -0.01373785</float_array>
+          <technique_common>
+            <accessor source="#Emerald-mesh-positions-array" count="26" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Emerald-mesh-normals">
+          <float_array id="Emerald-mesh-normals-array" count="144">-0.6625858 0.3825441 -0.6439255 -0.8660254 0.5000001 0 -0.6625857 0.3825442 0.6439257 0 0.765088 -0.6439257 0 1 0 0 0.7650879 0.6439259 0.662586 0.3825438 -0.6439255 0.8660256 0.4999997 0 0.6625859 0.3825437 0.6439257 0.6625857 -0.3825442 -0.6439254 0.8660254 -0.5000001 0 0.662586 -0.3825441 0.6439253 -2.84617e-7 -0.7650886 -0.6439251 -1.59431e-7 -1 0 -1.97366e-7 -0.7650884 0.6439253 -0.01523339 0.008794963 -0.9998453 -0.01523339 0.008794963 0.9998453 0 0.01758998 -0.9998454 0 0.01758998 0.9998453 0.01523339 0.008794963 -0.9998453 0.01523339 0.008794963 0.9998454 0.01523339 -0.008794963 -0.9998454 0.01523339 -0.008794963 0.9998454 0 -0.01758998 -0.9998453 0 -0.01758998 0.9998453 -0.01523339 -0.008794963 -0.9998454 -0.6625858 -0.382544 -0.6439256 -0.8660255 -0.5 0 -0.6625857 -0.3825439 0.6439257 -0.01523339 -0.008794963 0.9998454 -0.6625856 0.3825442 -0.6439258 -0.8660253 0.5 0 -0.6625856 0.3825441 0.6439259 0 0.7650882 -0.6439257 0 1 0 0 0.765088 0.6439259 0.662586 0.3825439 -0.6439254 0.8660256 0.4999996 0 0.6625858 0.3825438 0.6439256 0.6625862 -0.3825441 -0.6439251 0.8660253 -0.5000002 0 0.6625858 -0.3825442 0.6439256 -1.86553e-7 -0.7650884 -0.6439251 -3.72006e-7 -1 0 -1.21979e-7 -0.7650883 0.6439254 -0.6625859 -0.382544 -0.6439254 -0.8660255 -0.5 0 -0.6625857 -0.3825439 0.6439257</float_array>
+          <technique_common>
+            <accessor source="#Emerald-mesh-normals-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Emerald-mesh-map-0">
+          <float_array id="Emerald-mesh-map-0-array" count="288">0.5676257 0.3840878 0.5428267 0.3000237 0.7088373 0.3141131 0.9998219 1.78064e-4 0.999822 0.2996674 0.8332147 0.2996674 1.78064e-4 0.6382504 0.07531338 0.5931233 0.1567593 0.6561248 0.6702258 0.3927956 0.7088373 0.3141131 0.8215551 0.4368026 0.8332145 1.78154e-4 0.8332147 0.2996674 0.6666073 0.2996675 0.1319603 0.740189 0.1567593 0.6561248 0.2593594 0.6474171 0.7398893 0.4686217 0.8215551 0.4368026 0.821555 0.6034099 0.6666073 1.78215e-4 0.6666073 0.2996675 0.5 0.2996675 0.2593594 0.6474171 0.3290229 0.5715909 0.4106886 0.60341 0.7398893 0.5715907 0.821555 0.6034099 0.7088373 0.7260993 0.5 1.78275e-4 0.5 0.2996675 0.3333927 0.2996675 0.3290229 0.5715909 0.3290229 0.4686218 0.4106886 0.4368028 0.7088373 0.7260993 0.5428268 0.7401887 0.5676259 0.6561247 0.3333926 1.78336e-4 0.3333927 0.2996675 0.1667853 0.2996676 0.4106886 0.4368028 0.3290229 0.4686218 0.2593596 0.3927956 0.3094613 0.8297247 0.2064856 0.8297247 0.2579735 0.7405451 1.78064e-4 0.8297247 0.1031538 0.8297247 0.0516659 0.9189043 0.3094613 0.8297247 0.2579735 0.7405451 0.3609492 0.7405451 0.0516659 0.9189043 0.1031538 0.8297247 0.1546416 0.9189043 0.3094613 0.8297247 0.3609492 0.7405451 0.412437 0.8297247 0.1546416 0.9189043 0.1031538 0.8297247 0.2061295 0.8297247 0.3094613 0.8297247 0.412437 0.8297247 0.3609492 0.9189043 0.2061295 0.8297247 0.1031538 0.8297247 0.1546416 0.7405451 0.3094613 0.8297247 0.3609492 0.9189043 0.2579735 0.9189043 0.1546416 0.7405451 0.1031538 0.8297247 0.0516659 0.7405451 0.3094613 0.8297247 0.2579735 0.9189043 0.2064856 0.8297247 0.5428268 0.7401887 0.4110448 0.6382502 0.4861801 0.5931233 0.1667853 1.78396e-4 0.1667853 0.2996676 1.78064e-4 0.2996675 0.297971 0.3141133 0.2593596 0.3927956 0.1567596 0.3840878 0.0516659 0.7405451 0.1031538 0.8297247 1.78064e-4 0.8297247 0.6702258 0.3927956 0.5676257 0.3840878 0.7088373 0.3141131 0.8332145 1.78154e-4 0.9998219 1.78064e-4 0.8332147 0.2996674 0.1319603 0.740189 1.78064e-4 0.6382504 0.1567593 0.6561248 0.7398893 0.4686217 0.6702258 0.3927956 0.8215551 0.4368026 0.6666073 1.78215e-4 0.8332145 1.78154e-4 0.6666073 0.2996675 0.2979708 0.7260995 0.1319603 0.740189 0.2593594 0.6474171 0.7398893 0.5715907 0.7398893 0.4686217 0.821555 0.6034099 0.5 1.78275e-4 0.6666073 1.78215e-4 0.5 0.2996675 0.2979708 0.7260995 0.2593594 0.6474171 0.4106886 0.60341 0.6702259 0.6474169 0.7398893 0.5715907 0.7088373 0.7260993 0.3333926 1.78336e-4 0.5 1.78275e-4 0.3333927 0.2996675 0.4106886 0.60341 0.3290229 0.5715909 0.4106886 0.4368028 0.6702259 0.6474169 0.7088373 0.7260993 0.5676259 0.6561247 0.1667853 1.78396e-4 0.3333926 1.78336e-4 0.1667853 0.2996676 0.297971 0.3141133 0.4106886 0.4368028 0.2593596 0.3927956 0.5676259 0.6561247 0.5428268 0.7401887 0.4861801 0.5931233 1.78124e-4 1.78396e-4 0.1667853 1.78396e-4 1.78064e-4 0.2996675 0.1319607 0.3000237 0.297971 0.3141133 0.1567596 0.3840878</float_array>
+          <technique_common>
+            <accessor source="#Emerald-mesh-map-0-array" count="144" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Emerald-mesh-vertices">
+          <input semantic="POSITION" source="#Emerald-mesh-positions"/>
+        </vertices>
+        <polylist material="emerald-material0-material" count="48">
+          <input semantic="VERTEX" source="#Emerald-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Emerald-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Emerald-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 0 2 0 1 6 0 2 2 1 3 1 1 4 5 1 5 1 2 6 0 2 7 4 2 8 7 3 9 6 3 10 10 3 11 6 4 12 5 4 13 9 4 14 5 5 15 4 5 16 8 5 17 11 6 18 10 6 19 14 6 20 10 7 21 9 7 22 13 7 23 8 8 24 12 8 25 13 8 26 15 9 27 14 9 28 19 9 29 14 10 30 13 10 31 18 10 32 12 11 33 17 11 34 18 11 35 19 12 36 24 12 37 25 12 38 19 13 39 18 13 40 23 13 41 18 14 42 17 14 43 22 14 44 16 15 45 3 15 46 7 15 47 0 16 48 21 16 49 4 16 50 16 17 51 7 17 52 11 17 53 4 18 54 21 18 55 8 18 56 16 19 57 11 19 58 15 19 59 8 20 60 21 20 61 12 20 62 16 21 63 15 21 64 20 21 65 12 22 66 21 22 67 17 22 68 16 23 69 20 23 70 25 23 71 17 24 72 21 24 73 22 24 74 16 25 75 25 25 76 3 25 77 24 26 78 2 26 79 3 26 80 24 27 81 23 27 82 1 27 83 23 28 84 22 28 85 0 28 86 22 29 87 21 29 88 0 29 89 7 30 90 3 30 91 6 30 92 6 31 93 2 31 94 5 31 95 5 32 96 1 32 97 4 32 98 11 33 99 7 33 100 10 33 101 10 34 102 6 34 103 9 34 104 9 35 105 5 35 106 8 35 107 15 36 108 11 36 109 14 36 110 14 37 111 10 37 112 13 37 113 9 38 114 8 38 115 13 38 116 20 39 117 15 39 118 19 39 119 19 40 120 14 40 121 18 40 122 13 41 123 12 41 124 18 41 125 20 42 126 19 42 127 25 42 128 24 43 129 19 43 130 23 43 131 23 44 132 18 44 133 22 44 134 25 45 135 24 45 136 3 45 137 2 46 138 24 46 139 1 46 140 1 47 141 23 47 142 0 47 143</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Camera" name="Camera" type="NODE">
+        <matrix sid="transform">0.6858805 -0.3173701 0.6548619 7.481132 0.7276338 0.3124686 -0.6106656 -6.50764 -0.01081678 0.8953432 0.4452454 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Lamp" name="Lamp" type="NODE">
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663932 4.076245 0.9551712 -0.1998834 0.2183912 1.005454 -0.05518906 0.6045247 0.7946723 3.043092 0 0 0 1</matrix>
+        <instance_light url="#Lamp-light"/>
+      </node>
+      <node id="Emerald" name="Emerald" type="NODE">
+        <matrix sid="transform">1 0 0 0.003 0 1 0 -0.002063006 0 0 1 0.01347601 0 0 0 1</matrix>
+        <instance_geometry url="#Emerald-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="emerald-green-material" target="#emerald-green-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="emerald-material0-material" target="#emerald-material0-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Lamp_001" name="Lamp_001" type="NODE">
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663932 4.076245 0.9551712 -0.1998834 0.2183912 1.005454 -0.05518906 0.6045247 0.7946723 -3.978796 0 0 0 1</matrix>
+        <instance_light url="#Lamp_001-light"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
